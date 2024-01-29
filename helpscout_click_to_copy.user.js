@@ -3,7 +3,7 @@
 // @namespace    https://github.com/Maxr1998/userscripts
 // @supportURL   https://github.com/Maxr1998/userscripts/issues
 // @downloadURL  https://github.com/Maxr1998/userscripts/raw/master/helpscout_click_to_copy.user.js
-// @version      2024-01-29
+// @version      2024-01-29_1
 // @description  Allows to quickly copy UUIDs and Google Play order IDs in HelpScout messages.
 // @author       Maxr1998
 // @icon         https://www.google.com/s2/favicons?domain=helpscout.net&sz=256
@@ -15,7 +15,7 @@
     'use strict';
 
     // RegExp for a single quoted UUIDv4
-    const uuidRegex = /'([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})'/ig;
+    const uuidRegex = /'?([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})'?/ig;
 
     // RegExp for a Google Play order ID
     const orderIdRegex = /(GPA\.\d{4}-\d{4}-\d{4}-\d{5})(?:\.\.\d+)?/g;
