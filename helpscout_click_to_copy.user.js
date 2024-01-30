@@ -3,10 +3,11 @@
 // @namespace    https://github.com/Maxr1998/userscripts
 // @supportURL   https://github.com/Maxr1998/userscripts/issues
 // @downloadURL  https://github.com/Maxr1998/userscripts/raw/master/helpscout_click_to_copy.user.js
-// @version      2024-01-29_1
+// @version      2024-01-30
 // @description  Allows to quickly copy UUIDs and Google Play order IDs in HelpScout messages.
 // @author       Maxr1998
 // @icon         https://www.google.com/s2/favicons?domain=helpscout.net&sz=256
+// @match        https://secure.helpscout.net/mailbox/*
 // @match        https://secure.helpscout.net/conversation/*
 // @grant        none
 // ==/UserScript==
