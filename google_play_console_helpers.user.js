@@ -3,6 +3,7 @@
 // @namespace    https://github.com/Maxr1998/userscripts
 // @supportURL   https://github.com/Maxr1998/userscripts/issues
 // @downloadURL  https://github.com/Maxr1998/userscripts/raw/master/google_play_console_helpers.user.js
+// @updateURL    https://github.com/Maxr1998/userscripts/raw/master/google_play_console_helpers.user.js
 // @version      2024-06-07
 // @description  Extract useful data from the Google Play Console more quickly
 // @author       Maxr1998
