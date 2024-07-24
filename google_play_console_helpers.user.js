@@ -88,7 +88,7 @@
         });
 
         const orders = Array.from(ordersMap.entries().map((order) => {
-            return {"purchaseToken": order[0], "orderId": order[1]};
+            return {"purchase_token": order[0], "order_id": order[1]};
         }));
 
         const copyAllOrdersButton = injectCopyAllOrdersButton();
